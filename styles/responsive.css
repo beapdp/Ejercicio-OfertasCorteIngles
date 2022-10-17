@@ -1,0 +1,100 @@
+@media screen and (min-width: 768px){
+    .header_firstContainer ul{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        margin-right: 30px;
+        list-style: none;
+    }
+    .header_secondContainer-menu{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        list-style: none;
+        font-size: 12;
+        margin-top: 20px;
+    }
+    .header_secondContainer-menu a{
+        text-decoration: none;
+        color: rgb(100, 98, 98);
+    }
+    .header_secondContainer-menu a:hover{
+    text-decoration: underline chartreuse 3px;
+    }
+    .footer_fourthDiv{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_fourthDiv-corteIngles{
+        margin-left: 20px;
+    }
+    .payment::before{
+        bottom: 125px;
+    }
+    .quality::before{
+        bottom: 125px;
+    }
+    .footerLogo{
+        position: absolute;
+        top: 20px;
+    }
+}
+@media screen and (min-width: 992px){
+    .logo{
+        width: 250px;
+        margin-left: 30px;
+    }
+    .menuIcon{
+        margin-top: -20px;
+    }
+    .secondMenu{
+        margin-left: 30px;
+        margin-right: 30px;
+        position: relative;
+    }
+    .secondMenu::after{
+        content: "";
+        background-color: darkgray;
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        top: 100px;
+    }
+    .secondMenu_list{
+        display: flex;
+        gap: 40px;
+        justify-content: space-around;
+        list-style: none;
+    }
+    .secondMenu_list-containers{
+        background-color: rgb(120, 194, 46);
+        border: 1px solid gainsboro;
+        height: 40px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .secondMenu_list a{
+        text-decoration: none;
+        color: white;
+    }
+    .mainSection{
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 20px;
+    }
+    .mainSection img{
+        width: 500px;
+    }
+    .mainSection_partTwo{
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    .footerFirstDiv{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
